@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*This code is for the tab on the header, including logo and links*/
+header {
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+}
+
+.header-tab {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/*This code is for the text content on the header*/
