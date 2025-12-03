@@ -8,14 +8,14 @@ body {
 
 /*This code is for the tab on the header, including logo and links*/
 header {
-  padding: 0px 60px;
+  padding: 0px 80px;
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
 }
 
 .header-tab {
-  padding: 10px;
+  padding: 10px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,3 +41,47 @@ li {
 }
 
 /*This code is for the text content on the header*/
+.header-content {
+  margin: 100px 0px;
+  display: flex;
+}
+
+.left-content {
+  margin-right: 50px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+p {
+  margin: 0;
+}
+
+.white-text,
+.button-one {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button-one {
+  margin-top: 10px;
+  padding: 5px 25px;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+  background-color: #3882f6;
+  font-weight: bold;
+}
+
+.placeholder {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(109, 116, 125);
+  text-align: center;
+}
+
