@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/*This code is for the tab on the header, including logo and links*/
+/*this code is for the tab on the header, including logo and links*/
 header {
   display: flex;
   flex-direction: column;
@@ -37,10 +37,12 @@ ul {
 
 li {
   font-size: 18px;
+  letter-spacing: -1px;
   color: #e5e7eb;
+
 }
 
-/*This code is for the text content on the header*/
+/*this code is for the text content on the header*/
 .header-content {
   display: flex;
   margin: 100px 0px;
@@ -85,7 +87,7 @@ p {
   background-color: rgba(109, 116, 125);
 }
 
-/*Starting from here it's the code for the "some random information section*/
+/*starting from here it's the code for the "some random information section*/
 h1 {
   font-size: 36px;
   font-weight: 900;
@@ -99,6 +101,7 @@ h1 {
   align-items: center;
   gap: 32px;
   flex-wrap: wrap;
+  margin-bottom: 80px;
   padding: 0px 80px;
 }
 
@@ -112,3 +115,25 @@ h1 {
   text-align: center;
   color: #1f2937;
 }
+
+/*starting from here you have the 'quote' section code*/
+.container-two {
+  padding:  80px 120px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/*starting from here you have the code for 'call it action!' section*/
+
