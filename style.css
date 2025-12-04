@@ -136,4 +136,34 @@ h1 {
 }
 
 /*starting from here you have the code for 'call it action!' section*/
+.container-three {
+  padding:  80px 120px;
+}
 
+.window {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  padding: 40px 40px;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+  background-color: #3882f6;
+}
+
+.action {
+  font-weight: bold;
+}
+
+.button-two {
+  flex-shrink: 0;
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 5px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #f9faf8;
+  border-radius: 10px;
+  color: #f9faf8;
+  background-color: #3882f6;
+}
